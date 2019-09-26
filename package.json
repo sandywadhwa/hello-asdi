@@ -1,0 +1,22 @@
+{
+  "name": "hello-asdi",
+  "version": "1.0.0",
+  "description": "Hello ASDI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandywadhwa/hello-asdi.git"
+  },
+  "author": "Being Zero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandywadhwa/hello-asdi/issues"
+  },
+  "homepage": "https://github.com/sandywadhwa/hello-asdi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
