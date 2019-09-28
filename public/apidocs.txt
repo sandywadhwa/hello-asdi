@@ -1,0 +1,23 @@
+// GET ALL COURSES
+curl -X GET -H "Content-Type: application/json" http://localhost:3000/api/courses
+
+// ADD NEW COURSE
+curl -X POST -H "Content-Type: application/json" -d '{"title": "ASDI", "author": "Mukesh"}' http://localhost:3000/api/courses
+curl -X POST -H "Content-Type: application/json" -d '{"title": "CCI", "author": "Sandeep"}' http://localhost:3000/api/courses
+curl -X POST -H "Content-Type: application/json" -d '{"title": "CCS", "author": "Ashutosh"}' http://localhost:3000/api/courses
+
+// GET A COURSE
+curl -X GET -H "Content-Type: application/json" http://localhost:3000/api/courses/<id>
+
+// UPDATE A COURSE
+curl -X PATCH -H "Content-Type: application/json" -d '{"title": "CPS"}' http://localhost:3000/api/courses/<id>
+
+// REPLACE A COURSE
+curl -X PUT -H "Content-Type: application/json" -d '{"title": "CPSNEW"}' http://localhost:3000/api/courses/<id>
+
+// GET A COURSE
+curl -X GET -H "Content-Type: application/json" http://localhost:3000/api/courses/<id>
+
+
+// DELETE A COURSE
+curl -X DELETE -H "Content-Type: application/json" http://localhost:3000/api/courses/<id>

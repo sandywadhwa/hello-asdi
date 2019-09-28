@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/sandywadhwa/hello-asdi#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "shortid": "^2.2.15"
   }
 }
